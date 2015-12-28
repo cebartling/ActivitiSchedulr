@@ -127,6 +127,10 @@ GEM
     i18n (0.7.0)
     icalendar (2.3.0)
     ice_nine (0.11.1)
+    imperator (0.2.0)
+      activemodel
+      uuidtools
+      virtus
     jbuilder (2.4.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -330,6 +334,7 @@ DEPENDENCIES
   factory_girl_rails
   heroku-deflater
   icalendar
+  imperator
   jbuilder (~> 2.0)
   jquery-rails
   jwt
