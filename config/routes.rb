@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  namespace :api do
+  namespace :api, constraints: { format: 'json' } do
     resources :sessions
     resources :users
   end
