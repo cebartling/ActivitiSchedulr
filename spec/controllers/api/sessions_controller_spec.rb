@@ -19,6 +19,4 @@ RSpec.describe Api::SessionsController, type: :controller do
       expect(response).to have_http_status(:created)
     end
   end
-
-
 end
